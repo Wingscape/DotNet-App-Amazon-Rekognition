@@ -1,0 +1,40 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using Dartmedia.WebDemos.Services
+@inject CollectionService Collection
+@inject KinesisStreamService DataStream
+@inject KinesisVideoStreamService VideoStream
+@inject StreamProcessorService StreamProcessor
+
+<div class="text-center">
+    <button class="btn btn-secondary" @onclick="(e => Task.Run(async () => await Collection.CreateCollection()))">Create a collection</button>
+    <button class="btn btn-secondary" @onclick="(e => Task.Run(async () => await Collection.AddFaces()))">Add faces</button>
+    <button class="btn btn-secondary" @onclick="(e => VideoStreamProcess())">Create a video stream</button>
+    <button class="btn btn-secondary" @onclick="(e => DataStreamProcess())">Create a data stream</button>
+    <button class="btn btn-secondary" @onclick="(e => StreamProcessorProcess())">Create a stream processor</button>
+</div>
+
+<div class="text-center">
+    <button class="btn btn-primary">Start stream</button>
+</div>
+
+<p>ARN video stream: @videoARN</p>
+<p>ARN data stream: @dataARN</p>
+
+@code {
+    string videoARN, dataARN;
+
+    private async Task VideoStreamProcess()
+    {
+        videoARN = await VideoStream.CreateNewVideoStream();
+    }
+
+    private async Task DataStreamProcess()
+    {
+        dataARN = await DataStream.CreateNewStream();
+    }
+
+    private async Task StreamProcessorProcess()
+    {
+        await StreamProcessor.CreateNewStream(videoARN, dataARN);
+    }
+}

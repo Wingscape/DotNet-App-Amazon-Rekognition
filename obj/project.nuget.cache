@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z4XIBYQMnT2XZMVlCzq029dY6yrzPa6sjNHM8fHhoVLVor5lqXwsaXA2jEmO2JfoI4DRO5czPcuYYh4RjgT2zw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dartmedia\\Documents\\MyDirectory\\Learn\\WebDev\\ASPDotNet\\Dartmedia.WebDemos\\Dartmedia.WebDemos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dartmedia\\.nuget\\packages\\awssdk.core\\3.7.8.7\\awssdk.core.3.7.8.7.nupkg.sha512",
+    "C:\\Users\\dartmedia\\.nuget\\packages\\awssdk.kinesis\\3.7.1.29\\awssdk.kinesis.3.7.1.29.nupkg.sha512",
+    "C:\\Users\\dartmedia\\.nuget\\packages\\awssdk.kinesisvideo\\3.7.0.133\\awssdk.kinesisvideo.3.7.0.133.nupkg.sha512",
+    "C:\\Users\\dartmedia\\.nuget\\packages\\awssdk.rekognition\\3.7.7.22\\awssdk.rekognition.3.7.7.22.nupkg.sha512"
+  ],
+  "logs": []
+}

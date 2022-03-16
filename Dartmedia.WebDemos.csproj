@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Kinesis" Version="3.7.1.29" />
+    <PackageReference Include="AWSSDK.KinesisVideo" Version="3.7.0.133" />
+    <PackageReference Include="AWSSDK.Rekognition" Version="3.7.7.22" />
+  </ItemGroup>
+
+</Project>

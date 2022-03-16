@@ -1,0 +1,241 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AWSSDK.Core/3.7.8.7": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.Kinesis/3.7.1.29": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.8.7, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Kinesis.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Kinesis.dll": {}
+        }
+      },
+      "AWSSDK.KinesisVideo/3.7.0.133": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.8.7, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.KinesisVideo.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.KinesisVideo.dll": {}
+        }
+      },
+      "AWSSDK.Rekognition/3.7.7.22": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.8.6, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Rekognition.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Rekognition.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AWSSDK.Core/3.7.8.7": {
+      "sha512": "v3OnjYP2pbKqcW+JO7scQPohXigahwmwd8ICNS/GdsSMW7jIxnqWwoNrI3/OcVRN6+dBwUe5QpCT/2d9k9w85w==",
+      "type": "package",
+      "path": "awssdk.core/3.7.8.7",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.7.8.7.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.Kinesis/3.7.1.29": {
+      "sha512": "bBkPf56ksIWEZam1ldTy+Fe4lnfrDGDp6zuzUGyAOBrdAO1eOWyGmNHP681oeJGwfvm2TW4Tuw61JujVB2G0HA==",
+      "type": "package",
+      "path": "awssdk.kinesis/3.7.1.29",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.Kinesis.CodeAnalysis.dll",
+        "awssdk.kinesis.3.7.1.29.nupkg.sha512",
+        "awssdk.kinesis.nuspec",
+        "lib/net35/AWSSDK.Kinesis.dll",
+        "lib/net35/AWSSDK.Kinesis.pdb",
+        "lib/net35/AWSSDK.Kinesis.xml",
+        "lib/net45/AWSSDK.Kinesis.dll",
+        "lib/net45/AWSSDK.Kinesis.pdb",
+        "lib/net45/AWSSDK.Kinesis.xml",
+        "lib/netcoreapp3.1/AWSSDK.Kinesis.dll",
+        "lib/netcoreapp3.1/AWSSDK.Kinesis.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Kinesis.xml",
+        "lib/netstandard2.0/AWSSDK.Kinesis.dll",
+        "lib/netstandard2.0/AWSSDK.Kinesis.pdb",
+        "lib/netstandard2.0/AWSSDK.Kinesis.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.KinesisVideo/3.7.0.133": {
+      "sha512": "zRO17FxXqQ02z4oTpyoFVfX0eOhfiLKNLVNrXzgIcoVYAuvEQ9HAcjmJDZuYfU02wLH/iWVlOPdjHNj6z+LStw==",
+      "type": "package",
+      "path": "awssdk.kinesisvideo/3.7.0.133",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.KinesisVideo.CodeAnalysis.dll",
+        "awssdk.kinesisvideo.3.7.0.133.nupkg.sha512",
+        "awssdk.kinesisvideo.nuspec",
+        "lib/net35/AWSSDK.KinesisVideo.dll",
+        "lib/net35/AWSSDK.KinesisVideo.pdb",
+        "lib/net35/AWSSDK.KinesisVideo.xml",
+        "lib/net45/AWSSDK.KinesisVideo.dll",
+        "lib/net45/AWSSDK.KinesisVideo.pdb",
+        "lib/net45/AWSSDK.KinesisVideo.xml",
+        "lib/netcoreapp3.1/AWSSDK.KinesisVideo.dll",
+        "lib/netcoreapp3.1/AWSSDK.KinesisVideo.pdb",
+        "lib/netcoreapp3.1/AWSSDK.KinesisVideo.xml",
+        "lib/netstandard2.0/AWSSDK.KinesisVideo.dll",
+        "lib/netstandard2.0/AWSSDK.KinesisVideo.pdb",
+        "lib/netstandard2.0/AWSSDK.KinesisVideo.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.Rekognition/3.7.7.22": {
+      "sha512": "KLQKiT/DLPSfMtyjaj49UcsgxjGPNzcdks6NIlKFKAUm07G4U2HT+jOv0K1lwCwjB8XUB7wocN+CREJhtXlfvg==",
+      "type": "package",
+      "path": "awssdk.rekognition/3.7.7.22",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.Rekognition.CodeAnalysis.dll",
+        "awssdk.rekognition.3.7.7.22.nupkg.sha512",
+        "awssdk.rekognition.nuspec",
+        "lib/net35/AWSSDK.Rekognition.dll",
+        "lib/net35/AWSSDK.Rekognition.pdb",
+        "lib/net35/AWSSDK.Rekognition.xml",
+        "lib/net45/AWSSDK.Rekognition.dll",
+        "lib/net45/AWSSDK.Rekognition.pdb",
+        "lib/net45/AWSSDK.Rekognition.xml",
+        "lib/netcoreapp3.1/AWSSDK.Rekognition.dll",
+        "lib/netcoreapp3.1/AWSSDK.Rekognition.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Rekognition.xml",
+        "lib/netstandard2.0/AWSSDK.Rekognition.dll",
+        "lib/netstandard2.0/AWSSDK.Rekognition.pdb",
+        "lib/netstandard2.0/AWSSDK.Rekognition.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AWSSDK.Kinesis >= 3.7.1.29",
+      "AWSSDK.KinesisVideo >= 3.7.0.133",
+      "AWSSDK.Rekognition >= 3.7.7.22"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dartmedia\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\dartmedia\\Documents\\MyDirectory\\Learn\\WebDev\\ASPDotNet\\Dartmedia.WebDemos\\Dartmedia.WebDemos.csproj",
+      "projectName": "Dartmedia.WebDemos",
+      "projectPath": "C:\\Users\\dartmedia\\Documents\\MyDirectory\\Learn\\WebDev\\ASPDotNet\\Dartmedia.WebDemos\\Dartmedia.WebDemos.csproj",
+      "packagesPath": "C:\\Users\\dartmedia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dartmedia\\Documents\\MyDirectory\\Learn\\WebDev\\ASPDotNet\\Dartmedia.WebDemos\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\dartmedia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "AWSSDK.Kinesis": {
+            "target": "Package",
+            "version": "[3.7.1.29, )"
+          },
+          "AWSSDK.KinesisVideo": {
+            "target": "Package",
+            "version": "[3.7.0.133, )"
+          },
+          "AWSSDK.Rekognition": {
+            "target": "Package",
+            "version": "[3.7.7.22, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

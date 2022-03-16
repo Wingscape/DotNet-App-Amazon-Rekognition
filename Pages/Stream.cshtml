@@ -1,0 +1,10 @@
+﻿@page
+@using Dartmedia.WebDemos.Components
+@model StreamModel
+@{
+    ViewData["Title"] = "Camera Streaming";
+}
+
+@(await Html.RenderComponentAsync<StreamOrderProcess>(RenderMode.ServerPrerendered))
+
+<script src="_framework/blazor.server.js"></script>
